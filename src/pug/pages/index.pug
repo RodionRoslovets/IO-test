@@ -1,0 +1,131 @@
+html(lang="ru")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		title Document
+	body
+		.container
+			header
+				.logo
+					img.logo-img(src="./assets/img/io-logo.jpg")
+			main
+				.case
+					img.case-img(src="./assets/img/case.jpg")
+				.person-data
+					.person-data__item
+						span.person-data__item-heading Полное ФИО
+						.person-data__item-data
+							span Рословец Родион Дмитриевич
+					.person-data__item
+						span.person-data__item-heading Год рождения
+						.person-data__item-data
+							span 1990
+					.person-data__item
+						span.person-data__item-heading Место жительства
+						.person-data__item-data
+							span г. Санкт-Петербург
+					.person-data__item
+						span.person-data__item-heading Скайп
+						.person-data__item-data
+							span rodion roslovets
+					.person-data__item
+						span.person-data__item-heading Почта
+						.person-data__item-data
+							span rodion18570@gmail.com
+				.person-skills
+					span.person-skills__heading Расскажите о себе чекбоксами
+					p.person-skills__description Отметьте чекбоксами пункты, которые соответствуют вашим скиллам. Отсутствие опыта не означает, что у вас меньше шансов стать одним из наших товарищей. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.
+					.person-skills__checkboxes
+						.person-skills__group
+							.person-skills__item
+								label
+									input(type="checkbox" checked hidden)
+									.person-skills__checkbox
+										img.person-skills__box(src="./assets/img/box.png")
+										img.person-skills__check(src="./assets/img/check.png")
+									| Методология БЭМ
+							.person-skills__item
+								label
+									input(type="checkbox" checked hidden)
+									.person-skills__checkbox
+										img.person-skills__box(src="./assets/img/box.png")
+										img.person-skills__check(src="./assets/img/check.png")
+									| jQuery
+							.person-skills__item
+								label
+									input(type="checkbox" hidden)
+									.person-skills__checkbox
+										img.person-skills__box(src="./assets/img/box.png")
+										img.person-skills__check(src="./assets/img/check.png")
+									| HAML
+							.person-skills__item
+								label
+									input(type="checkbox" checked hidden) 
+									.person-skills__checkbox
+										img.person-skills__box(src="./assets/img/box.png")
+										img.person-skills__check(src="./assets/img/check.png")
+									| SASS
+						.person-skills__group
+							.person-skills__item
+								label
+									input(type="checkbox" hidden)
+									.person-skills__checkbox
+										img.person-skills__box(src="./assets/img/box.png")
+										img.person-skills__check(src="./assets/img/check.png")
+									| LESS
+							.person-skills__item
+								label
+									input(type="checkbox" checked hidden)
+									.person-skills__checkbox
+										img.person-skills__box(src="./assets/img/box.png")
+										img.person-skills__check(src="./assets/img/check.png")
+									| Jade
+							.person-skills__item
+								label
+									input(type="checkbox" hidden)
+									.person-skills__checkbox
+										img.person-skills__box(src="./assets/img/box.png")
+										img.person-skills__check(src="./assets/img/check.png")
+									| Stylus
+						.person-skills__group
+							.person-skills__item
+								label
+									input(type="checkbox" checked hidden)
+									.person-skills__checkbox
+										img.person-skills__box(src="./assets/img/box.png")
+										img.person-skills__check(src="./assets/img/check.png")
+									| Знаю (изучаю) React*
+							.person-skills__item
+								label
+									input(type="checkbox" hidden)
+									.person-skills__checkbox
+										img.person-skills__box(src="./assets/img/box.png")
+										img.person-skills__check(src="./assets/img/check.png")
+									| Верстка рассылок
+							.person-skills__item
+								label
+									input(type="checkbox" checked hidden)
+									.person-skills__checkbox
+										img.person-skills__box(src="./assets/img/box.png")
+										img.person-skills__check(src="./assets/img/check.png")
+									| Адаптивная верстка
+				.JS-skills
+					.JS-skills__heading Уровень владения JavaScript
+					.JS-skills__slider
+						.slider-runner
+						.slider-point
+						.slider-point
+					.JS-skills__levels
+						span.JS-skills__item Не владею
+						span.JS-skills__item Использую готовые решения
+						span.JS-skills__item Использую готовые решения 
+							br
+							| и умею их переделывать
+						span.JS-skills__item(style="align-self:center;") Пишу сложный JS с нуля
+				.date
+					span.date__heading Дата заполнения
+					.date__data
+						span 16.01.2020
+				.ps
+					p *На данный момент изучаю.

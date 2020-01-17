@@ -1,0 +1,15 @@
+@mixin borderedBox {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;    
+}
+
+@mixin transition{
+    transition: all .1s linear;
+}
+
+@mixin flex($horiz:space-between, $vert:center){
+    display:flex;
+    justify-content: $horiz;
+    align-items: $vert;
+}
